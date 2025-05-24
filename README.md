@@ -23,3 +23,5 @@ python scanner.py
 ## Лицензия
 
 MIT
+
+<!-- v2 -->
