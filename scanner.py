@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID", "")
 
 SNIPER_CONFIDENCE  = 0.90   # порог для СНАЙПЕР
 SIGNAL_CONFIDENCE  = 0.88   # порог для СИГНАЛ
